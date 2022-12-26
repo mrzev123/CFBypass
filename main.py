@@ -203,9 +203,10 @@ def main():
     global config
 
     print(stylize('''
-                    █▄░█ ▄▀▄ █▀▀ █░░ █▄░▄█ 
-                    █░▀█ █░█ █▀▀ █░▄ █░█░█ 
-                    ▀░░▀ ░▀░ ▀▀▀ ▀▀▀ ▀░░░▀ 
+      ╔╦╗╔═╗╦═╗╦╔═    ╦ ╦╔╦╗╦╦  ╦╔╦╗╦╔═╗╔═╗
+       ║║╠═╣╠╦╝╠╩╗    ║ ║ ║ ║║  ║ ║ ║║╣ ╚═╗
+      ═╩╝╩ ╩╩╚═╩ ╩    ╚═╝ ╩ ╩╩═╝╩ ╩ ╩╚═╝╚═╝
+           simple attacks, simple programs
     ''', colored.fg('red')))
 
     if len(sys.argv) < 3:
